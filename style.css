@@ -1,52 +1,40 @@
 body {
-  font-family:  Arial, sans-serif;;
+  font-family: Arial;
   text-align: center;
+  background: #f4f6f9;
+  margin: 0;
 }
 
 nav {
-  background: black;
+  background: #111;
   padding: 15px;
 }
 
 nav a {
-  color: pink;
+  color: white;
   margin: 15px;
   text-decoration: none;
 }
+
 nav a:hover {
   color: #00bcd4;
 }
 
-/* MAIN TEXT */
 h1 {
-  margin-top: 40px;
-  font-size: 40px;
+  margin-top: 30px;
 }
 
-p {
-  font-size: 18px;
-  max-width: 600px;
-  margin: auto;
-}
-
-/* CARD STYLE (Projects дээр хэрэгтэй) */
+/* ⭐ CARD STYLE */
 .card {
   background: white;
-  padding: 20px;
+  width: 70%;
   margin: 20px auto;
-  width: 80%;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
 }
 
-/* MOBILE */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 28px;
-  }
-
-  nav a {
-    display: block;
-    margin: 10px 0;
-  }
+.card:hover {
+  transform: scale(1.03);
 }
