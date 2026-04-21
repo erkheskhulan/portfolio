@@ -1,20 +1,25 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f4f6f9;
+  background: linear-gradient(135deg, #eef2f3, #d9e4f5);
   text-align: center;
+  color: #222;
 }
 
-/* NAV */
+/* NAVBAR */
 nav {
   background: #111;
   padding: 15px;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
-  color: pink;
+  color: white;
   margin: 15px;
   text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 nav a:hover {
@@ -23,15 +28,28 @@ nav a:hover {
 
 /* TITLE */
 h1 {
-  margin-top: 30px;
+  margin-top: 40px;
+  font-size: 40px;
 }
 
-/* CARD */
+/* CARD DESIGN */
 .card {
   background: white;
   width: 70%;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+/* TEXT */
+p {
+  font-size: 18px;
+  line-height: 1.6;
 }
