@@ -1,66 +1,41 @@
- body{
-  margin:0;
-  font-family: Arial, sans-serif;
-  color:white;
-  text-align:center;
-
-  background: linear-gradient(
-    135deg,
-    #0f2027,
-    #203a43,
-    #2c5364
-  );
-
-  min-height:100vh;
+body{
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(#dfe9f3, #ffffff);
 }
 
-/* NAVBAR */
-nav{
-  position:fixed;
-  top:0;
-  width:100%;
-  background:rgba(0,0,0,0.4);
-  backdrop-filter:blur(10px);
-  padding:15px;
+header{
+  padding: 40px;
+  background: #4a90e2;
+  color: white;
 }
 
-nav a{
-  color:white;
-  text-decoration:none;
-  margin:0 20px;
-  font-size:18px;
+section{
+  padding: 30px;
 }
 
-nav a:hover{
-  color:#00bcd4;
+button{
+  padding: 12px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #333;
+  color: white;
 }
 
-/* HERO SECTION */
-.hero{
-  margin-top:120px;
+button:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 
-.hero h1{
-  font-size:50px;
+#music{
+  margin-top: 20px;
 }
 
-.hero p{
-  font-size:20px;
-  opacity:0.8;
-}
-
-/* BUTTON */
-.btn{
-  display:inline-block;
-  margin-top:20px;
-  padding:12px 25px;
-  background:#00bcd4;
-  border-radius:25px;
-  text-decoration:none;
-  color:white;
-  transition:0.3s;
-}
-
-.btn:hover{
-  background:#0097a7;
+footer{
+  padding: 20px;
+  background: #eee;
+  margin-top: 40px;
 }
