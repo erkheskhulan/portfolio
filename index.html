@@ -1,20 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My website</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="projects.html">Projects</a>
-</nav>
+<header>
+  <h1>Hi, I'm Student 👋</h1>
+  <p>Portfolio + Mood Music Website</p>
+</header>
 
-<h1>Erkeskhulan.A</h1>
-<p>Welcome to my personal portfolio website.</p>
+<section class="about">
+  <h2>About Me</h2>
+  <p>I am learning HTML, CSS, JavaScript.</p>
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
+  <p>🎧 Mood Music App (below)</p>
+</section>
+
+<hr>
+
+<section class="mood">
+  <h2>🎧 Mood Music Generator</h2>
+
+  <div class="buttons">
+    <button onclick="showMusic('study')">📚 Study</button>
+    <button onclick="showMusic('sad')">😭 Sad</button>
+    <button onclick="showMusic('happy')">😎 Happy</button>
+    <button onclick="showMusic('tired')">😴 Tired</button>
+  </div>
+
+  <div id="music"></div>
+</section>
+
+<footer>
+  <p>Made with ❤️ using HTML, CSS, JS</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
