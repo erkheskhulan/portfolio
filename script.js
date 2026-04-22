@@ -22,4 +22,14 @@ music.innerHTML =
 '<iframe width="400" height="220" src="https://www.youtube.com/embed/5qap5aO4i9A"></iframe>';
 }
 
+if(mood === "focus"){
+music.innerHTML =
+'<iframe width="400" height="220" src="https://www.youtube.com/embed/DWcJFNfaw9c"></iframe>';
+}
+
+if(mood === "chill"){
+music.innerHTML =
+'<iframe width="400" height="220" src="https://www.youtube.com/embed/lTRiuFIWV54"></iframe>';
+}
+
 }
