@@ -2,44 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <h1>Hi, I'm Student 👋</h1>
-  <p>Portfolio + Mood Music Website</p>
+  <h1>Portfolio</h1>
+  <p>Web Developer</p>
 </header>
 
 <section class="about">
+
   <h2>About Me</h2>
-  <p>I am learning HTML, CSS, JavaScript.</p>
+
+  <img src="images/me.webp" alt="profile">
+
+  <p>Frontend developer building simple and interactive websites.</p>
+
 </section>
 
 <section class="projects">
+
   <h2>Projects</h2>
-  <p>🎧 Mood Music App (below)</p>
+
+  <p>Mood Music Web App</p>
+
 </section>
 
 <hr>
 
 <section class="mood">
-  <h2>🎧 Mood Music Generator</h2>
+
+  <h2>Mood Music Player</h2>
 
   <div class="buttons">
-    <button onclick="showMusic('study')">📚 Study</button>
-    <button onclick="showMusic('sad')">😭 Sad</button>
-    <button onclick="showMusic('happy')">😎 Happy</button>
-    <button onclick="showMusic('tired')">😴 Tired</button>
+    <button onclick="showMusic('study')">Study</button>
+    <button onclick="showMusic('sad')">Sad</button>
+    <button onclick="showMusic('happy')">Happy</button>
+    <button onclick="showMusic('tired')">Tired</button>
   </div>
 
   <div id="music"></div>
+
 </section>
 
 <footer>
-  <p>Made with ❤️ using HTML, CSS, JS</p>
+  <p>© 2026 Portfolio</p>
 </footer>
 
 <script src="script.js"></script>
